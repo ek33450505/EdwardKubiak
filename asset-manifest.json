@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/EdwardKubiak/static/css/main.593bea7f.css",
-    "main.js": "/EdwardKubiak/static/js/main.87b34270.js",
+    "main.css": "/EdwardKubiak/static/css/main.5fd7e067.css",
+    "main.js": "/EdwardKubiak/static/js/main.0edd2c94.js",
     "static/js/511.6c464508.chunk.js": "/EdwardKubiak/static/js/511.6c464508.chunk.js",
+    "static/media/background.png": "/EdwardKubiak/static/media/background.bfd7d63b32269ff7640b.png",
     "static/media/runBuddy.png": "/EdwardKubiak/static/media/runBuddy.aad6041739da1f06b288.png",
     "static/media/recipeSearch.png": "/EdwardKubiak/static/media/recipeSearch.d26e4879477c4a11f25e.png",
-    "static/media/Brand.webp": "/EdwardKubiak/static/media/Brand.cd6be07be49e4721d72b.webp",
-    "static/media/background.svg": "/EdwardKubiak/static/media/background.2b536010b4ea6bce9f0c.svg",
+    "static/media/brand.webp": "/EdwardKubiak/static/media/brand.bcb5c6b20743870fcb49.webp",
     "index.html": "/EdwardKubiak/index.html",
-    "main.593bea7f.css.map": "/EdwardKubiak/static/css/main.593bea7f.css.map",
-    "main.87b34270.js.map": "/EdwardKubiak/static/js/main.87b34270.js.map",
+    "main.5fd7e067.css.map": "/EdwardKubiak/static/css/main.5fd7e067.css.map",
+    "main.0edd2c94.js.map": "/EdwardKubiak/static/js/main.0edd2c94.js.map",
     "511.6c464508.chunk.js.map": "/EdwardKubiak/static/js/511.6c464508.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.593bea7f.css",
-    "static/js/main.87b34270.js"
+    "static/css/main.5fd7e067.css",
+    "static/js/main.0edd2c94.js"
   ]
 }
