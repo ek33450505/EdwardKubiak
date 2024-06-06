@@ -4,12 +4,26 @@ html,
 main {
   color: #ffffff;
   text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 main {
+  flex: 1;
   padding: 20px;
-  background: url("./Images/background.svg") center center / cover fixed;
-  height: 100vh;
+  background: url("./Images/background.png") center center / cover fixed;
   overflow: auto;
 }
 
@@ -24,11 +38,36 @@ p {
   font-weight: 500;
 }
 
+/* Footer Styles */
+.footer {
+  background-color: #030303;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 2px solid #444;
+}
+
+.github-icon,
+.strava-icon {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.github-icon:hover,
+.strava-icon:hover {
+  color: yellow;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
 /* Navbar Styles */
 .navBar-main {
   border-bottom: 2px solid #444;
   color: #ffffff;
-  background-color: #333;
+  background-color: #030303;
 }
 
 .navBar-main .navbar-brand {
@@ -145,7 +184,7 @@ p {
 /* Resume Styles */
 .resume-container {
   background-color: #f9f9f9;
-  color: #333;
+  color: #030303;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

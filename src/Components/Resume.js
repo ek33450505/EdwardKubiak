@@ -10,15 +10,24 @@ const resumeData = {
   summary:
     "Accomplished Application Developer with extensive experience in both front-end and back-end development. Specializes in crafting scalable applications and enhancing existing software systems. Skilled in various programming languages and frameworks, such as AngularJS, PHP, Python, and React. Currently improving application performance and user interaction at META Solutions by transitioning legacy systems to modern architectures.",
   skills: [
-    "MERN Stack Development (MongoDB, Express.js, React.js, Node.js)",
-    "JavaScript, jQuery",
-    "Proficiency in AngularJS",
-    "Python Backend Development",
-    "PHP Backend Development",
-    "Integration of Third-Party APIs",
-    "Design and Implementation of Server-Side APIs",
-    "SQL Database Management",
-    "Database Configuration",
+    "MERN Stack (MongoDB, Express, React, Node)",
+    "JavaScript && jQuery",
+    "AngularJS",
+    "Python Backend",
+    "PHP Backend",
+    "Third-Party APIs",
+    "Server-Side APIs",
+    "SQL Management",
+    "Database Config",
+    "HTML5",
+    "CSS3",
+    "Responsive Design",
+    "Bootstrap",
+    "Version Control (Git)",
+    "RESTful APIs",
+    "User Interface (UI) Design",
+    "User Experience (UX) Design",
+    "Unit Testing (Jest)",
   ],
   experience: [
     {
@@ -47,7 +56,6 @@ const resumeData = {
   ],
 };
 
-
 const Resume = () => (
   <Container className="resume-container mt-4">
     <Row>
@@ -55,8 +63,7 @@ const Resume = () => (
         <h1 className="resume-header">{resumeData.name}</h1>
         <p className="contact-info">
           <FontAwesomeIcon icon={faEnvelope} />{" "}
-          <a href={`mailto:${resumeData.email}`} className="email-link"
-          >
+          <a href={`mailto:${resumeData.email}`} className="email-link">
             {resumeData.email}
           </a>{" "}
           | <FontAwesomeIcon icon={faMapMarkerAlt} />{" "}
@@ -91,7 +98,9 @@ const Resume = () => (
             </p>
             <ul>
               {job.responsibilities.map((responsibility, i) => (
-                <li key={i} className="responsibilityText">{responsibility}</li>
+                <li key={i} className="responsibilityText">
+                  {responsibility}
+                </li>
               ))}
             </ul>
           </div>
