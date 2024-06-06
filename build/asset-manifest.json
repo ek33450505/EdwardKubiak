@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EdwardKubiak/static/css/main.5fd7e067.css",
-    "main.js": "/EdwardKubiak/static/js/main.f07e7b3c.js",
+    "main.js": "/EdwardKubiak/static/js/main.0edd2c94.js",
     "static/js/511.6c464508.chunk.js": "/EdwardKubiak/static/js/511.6c464508.chunk.js",
     "static/media/background.png": "/EdwardKubiak/static/media/background.bfd7d63b32269ff7640b.png",
     "static/media/runBuddy.png": "/EdwardKubiak/static/media/runBuddy.aad6041739da1f06b288.png",
@@ -9,11 +9,11 @@
     "static/media/brand.webp": "/EdwardKubiak/static/media/brand.bcb5c6b20743870fcb49.webp",
     "index.html": "/EdwardKubiak/index.html",
     "main.5fd7e067.css.map": "/EdwardKubiak/static/css/main.5fd7e067.css.map",
-    "main.f07e7b3c.js.map": "/EdwardKubiak/static/js/main.f07e7b3c.js.map",
+    "main.0edd2c94.js.map": "/EdwardKubiak/static/js/main.0edd2c94.js.map",
     "511.6c464508.chunk.js.map": "/EdwardKubiak/static/js/511.6c464508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd7e067.css",
-    "static/js/main.f07e7b3c.js"
+    "static/js/main.0edd2c94.js"
   ]
 }

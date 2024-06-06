@@ -8,7 +8,7 @@ const resumeData = {
   email: "EK33433450805@mailfence.com",
   location: "Columbus, Ohio, USA",
   summary:
-    "Accomplished Application Developer with extensive experience in both front-end and back-end development. Specializes in crafting scalable applications and enhancing existing software systems. Skilled in various programming languages and frameworks, such as AngularJS, PHP, Python, and React. Currently improving application performance and user interaction at META Solutions by transitioning legacy systems to modern architectures.",
+    "Accomplished Application Developer with extensive expertise in both front-end and back-end development. Specializes in crafting scalable applications and optimizing existing software systems. Proficient in a range of programming languages and frameworks, including AngularJS, PHP, Python, and React. Currently enhancing application performance and user interaction at META Solutions by transitioning legacy systems to modern architectures.",
   skills: [
     "MERN Stack (MongoDB, Express, React, Node)",
     "JavaScript && jQuery",
